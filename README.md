@@ -28,7 +28,7 @@ Um sistema de chat realtime com upload de imagens, baseado em:
 [Frontend Angular]
      |
      | 1. Conexão WebSocket (Socket.IO)
-     | 2. HTTP: /historic (GET)
+     | 2. HTTP: /history (GET)
      | 3. HTTP: /upload-url?filename=xyz.png (GET)
      |
 [Backend Node.js + Express + Socket.IO]
