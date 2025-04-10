@@ -77,6 +77,8 @@ backend/
 ├── .env
 ```
 
-## 🙌 Créditos
+## Deploy
 
-Esse projeto foi criado como uma POC (prova de conceito) de integração entre Angular, Node.js e serviços da AWS com foco em escalabilidade, desempenho e tempo real.
+Configura o projeto em produção rodando totalmente através dos recursos free tiers da amazon, integrando os serviços aqui citados. 
+
+[Realtime Chat POC](http://realtime-chat-front.s3-website-us-east-1.amazonaws.com)
