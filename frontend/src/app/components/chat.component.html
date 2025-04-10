@@ -1,0 +1,22 @@
+<div>
+  <input
+    type="text"
+    [(ngModel)]="mensagem"
+    placeholder="Digite sua mensagem..."
+  />
+  <button (click)="enviar()">Enviar</button>
+</div>
+<input type="file" (change)="upload($event)" />
+
+<div class="mensagens">
+  <div *ngFor="let msg of mensagens" class="mensagem-item">
+    <ng-container *ngIf="msg.mensagem.startsWith('[img]'); else texto">
+      <img [src]="getImagem(msg.mensagem)" />
+      <div class="timestamp">{{ getTimestamp(msg.timeStamp) }}</div>
+    </ng-container>
+    <ng-template #texto>
+      <p class="texto">{{ msg.mensagem }}</p>
+      <div class="timestamp">{{ getTimestamp(msg.timeStamp) }}</div>
+    </ng-template>
+  </div>
+</div>
