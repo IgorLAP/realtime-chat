@@ -2,13 +2,13 @@
 
 Um sistema de chat realtime com upload de imagens, baseado em:
 
-- ✅ Frontend Angular (Socket.IO + Upload com Presigned URL)
+- ✅ Frontend Angular [Chat realtime] (Socket.IO + Upload com Presigned URL)
 - ✅ Backend Node.js (WebSocket + REST + AWS SDK)
 - ✅ AWS SQS (mensageria FIFO)
 - ✅ AWS DynamoDB (histórico de mensagens)
 - ✅ AWS S3 (upload de imagens)
-- ✅ AWS EC2 (deploy do backend)
-- ✅ S3 Hosting ou CloudFront (para frontend)
+- ✅ AWS EC2 (deploy backend)
+- ✅ S3 Hosting (deploy frontend)
 
 ---
 
