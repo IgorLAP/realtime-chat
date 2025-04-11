@@ -72,13 +72,13 @@ Um sistema de chat realtime com upload de imagens, baseado em:
 
 ```
 backend/
-├── backend.js
+├── index.js
 ├── package.json
 ├── .env
 ```
 
 ## Deploy
 
-Configura o projeto em produção rodando totalmente através dos recursos free tiers da amazon, integrando os serviços aqui citados. 
+Projeto em produção rodando totalmente através dos recursos free tiers da amazon, integrando os serviços aqui citados. Deploy front no S3, e back no EC2.
 
 [Realtime Chat POC](http://realtime-chat-front.s3-website-us-east-1.amazonaws.com)
