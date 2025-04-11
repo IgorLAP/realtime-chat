@@ -68,15 +68,6 @@ Um sistema de chat realtime com upload de imagens, baseado em:
 
 ---
 
-## 📁 Estrutura do Backend
-
-```
-backend/
-├── index.js
-├── package.json
-├── .env
-```
-
 ## Deploy
 
 Projeto em produção rodando totalmente através dos recursos free tiers da amazon, integrando os serviços aqui citados. Deploy front no S3, e back no EC2.
